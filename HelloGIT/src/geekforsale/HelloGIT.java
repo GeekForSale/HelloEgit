@@ -9,8 +9,9 @@ public class HelloGIT {
 
 		// More bang.
 		for (int i = 0; i < 100; i++) {
-			if (i % 10 == 0)
+			if (i % 10 == 0) {
 				System.out.println();
+			}
 			System.out.print("bang!");
 		}
 
