@@ -8,13 +8,17 @@ public class HelloGIT {
 		System.out.println("Hello Jason!");
 
 		// More bang.
-		for (int i = 0; i < 100; i++) {
-			if (i % 10 == 0) {
-				System.out.println();
-			}
-			System.out.print("bang!");
-		}
+		bang(100);
 
+	}
+	
+	private void bang(int amount) {
+	   for (int i = 0; i < amount; i++) {
+           if (i % 10 == 0) {
+               System.out.println();
+           }
+           System.out.print("bang!");
+       }
 	}
 
 }
