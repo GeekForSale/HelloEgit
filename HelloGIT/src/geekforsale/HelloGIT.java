@@ -13,7 +13,8 @@ public class HelloGIT {
 				System.out.println();
 				System.out.print("bang!");
 			}
+		}
+		System.out.print("bang!");
 
-		} 
 	}
 }
