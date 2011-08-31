@@ -1,7 +1,7 @@
 package geekforsale;
 
 public class HelloGIT {
-//comment
+	// comment
 	public static void main(String[] args) {
 		System.out.println("Hello Git!!!");
 		// We have made some changes to Git!
@@ -11,14 +11,15 @@ public class HelloGIT {
 		for (int i = 0; i < 100; i++) {
 			if (i % 10 == 0) {
 				System.out.println();
+			} else {
 				System.out.print("bang!");
 			}
 		}
-		System.out.print("bang!");
 
-		/* Lets push using GIT GUI! */
-		
-		/* This is the testing2 branch! */
-		
+		int i = 3, j = 0;
+		System.out.println();
+		System.out.print("i + j = ");
+		System.out.print(i + j);
+
 	}
 }
