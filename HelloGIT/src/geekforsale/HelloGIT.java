@@ -1,14 +1,15 @@
 package geekforsale;
 
-// add a comment
+/**************************************************************************/
+/* HelloGIT purpose is for my understanding of GIT and GITHUB -JDW20111128*/
+/**************************************************************************/
 public class HelloGIT {
-	// comment
+	
 	public static void main(String[] args) {
 		System.out.println("Hello Git!!!");
-		// We have made some changes to Git!
 		System.out.println("Hello Jason!");
 
-		// More bang.
+		/* Loop some bang */
 		for (int i = 0; i < 100; i++) {
 			if (i % 10 == 0) {
 				System.out.println();
